@@ -1,0 +1,11 @@
+C19 : Tumeur maligne de la jonction recto-sigmoïdienne
+F023 : Démence de la maladie de Parkinson
+G20 : Maladie de Parkinson
+C34 : Tumeur maligne des bronches et du poumon
+Z803 : Antécédents familiaux de tumeur maligne du sein
+Z720 : Difficultés liées à l'usage du tabac
+C504 : Tumeur maligne du quadrant supéro-externe du sein
+C50 : Tumeur maligne du sein
+C502 : Tumeur maligne du quadrant supéro-interne du sein
+C500 : Tumeur maligne du mamelon et de l'aréole
+C501 : Tumeur maligne de la partie centrale du sein

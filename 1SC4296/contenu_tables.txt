@@ -1,0 +1,50 @@
+Contenu des table :
+
+PERSON
+birth_datetime / 16168 / datetime64[ns]
+death_datetime / 8848 / datetime64[ns]
+gender_source_value / 16168 / object
+cdm_source / 16168 / object
+person_id / 16168 / object
+
+CONDITION
+visit_occurence_id / 24486 / float64
+person_id / 24486 / object 
+condition_occurrence_id / 24486 / float64
+condition_source_value / 24486 / object
+
+VISIT
+visit_occurrence_id / 16168 / float64       
+care_site_id / 16168 / object        
+visit_start_datetime / 16168 / datetime64[ns]
+visit_end_datetime / 16137 / datetime64[ns]
+visit_source_value / 16168 / object        
+person_id / 16168 / object 
+
+BIO
+measurement_id / 64672 / float64       
+visit_occurrence_id / 64672 / float64       
+measurement_datetime / 64672 / datetime64[ns]
+concept_source_value / 64672 / object        
+transformed_value / 64672 / float64       
+transformed_unit / 64672 / object
+
+DEDUP 
+unique_person_id / 7219 / float64
+person_id / 7219 / object 
+
+DEDUP PROBA 
+unique_person_id / 2896 / float64
+person_id / 2896 / object 
+prob / 2896 / float64
+
+DEDUP DETERMINISTIC
+unique_person_id / 382 / float64
+person_id / 382 / object
+
+NOTE 
+visit_occurrence_id / 16168 / float64       
+note_datetime / 16168 / datetime64[ns]
+note_id / 16168 / float64       
+cdm_source / 16168 / object        
+note_text / 16168 / object
